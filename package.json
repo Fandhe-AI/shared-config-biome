@@ -2,18 +2,18 @@
   "name": "@fandhe-ai/shared-config-biome",
   "description": "Biome configuration for linting and formatting",
   "version": "0.0.0",
-  "exports": {
-    "./*": "./src/config/*.json"
-  },
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "prepare": "lefthook install"
-  },
   "devDependencies": {
     "@commitlint/cli": "20.5.0",
     "@commitlint/config-conventional": "20.5.0",
     "@commitlint/types": "20.5.0",
     "lefthook": "2.1.4"
-  }
+  },
+  "exports": {
+    "./*": "./src/config/*.json"
+  },
+  "private": true,
+  "scripts": {
+    "prepare": "lefthook install"
+  },
+  "type": "module"
 }
